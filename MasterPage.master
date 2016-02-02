@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>
+			UIET website
+		</title>
+		<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	    <style type="text/css">
+            .style1
+            {
+                width: 100%;
+            }
+            .style2
+            {
+                width: 1180px;
+                height: 353px;
+            }
+            .style3
+            {
+                font-family: Arial;
+                font-size: xx-large;
+            }
+        </style>
+	</head>
+	<body>
+		<form id="form1" runat="server">
+		<div id="bg1"></div>
+		<div id="bg2"></div>
+		<div id="outer">
+			<div id="header">
+				<div id="logo">
+					<h6 style="color: #FF0000; font-weight: bold; width: 986px;" class="style3">
+						RIMT-Institute of Engineering &amp; Technology,Mandi Gobindgarh</h6>
+				</div>
+				<%--<div id="search">
+						<div>
+							<input class="text" name="search" size="32" maxlength="64" />
+						</div>
+				</div>--%>
+				<div id="nav">
+					<ul>
+						<li class="first">
+									<a href="frmhome.aspx">Home</a>
+                                    </li>
+                                    <li >
+                                     <a href="frmaboutus.aspx">About Us</a>
+								
+								   </li>
+                                    </li>
+								<li>
+								<a href="frmcourses.aspx">Courses</a>
+								</li>
+
+                                    <li>
+									<a href="frmadmin.aspx">ADMIN</a></li>
+                               
+								<li>
+                                <a href="frmlibrary.aspx">Library</a>
+                                
+									
+								</li>
+								<li>
+										<a href="frmplacement.aspx">Placements</a>
+								</li>
+                                
+                                <li>
+										<a href="Login.aspx">Login</a>
+								</li>
+                                
+                                
+                                <li class="last">
+									<a href="frmcontactus.aspx">Contact Us</a>
+								</li>
+					</ul><br class="clear" />
+				</div>
+			</div>
+			<div id="banner">
+				<img alt="" class="style2" src="images/rimt_building.jpg" />
+			</div>
+			<div id="main">
+				<div id="sidebar">
+					<div class="box">
+						<div class="dateList">
+							<ul class="linkedList dateList">
+							<%--	<li class="first">
+							<a href="frmstudent.aspx">Students</a>
+						</li>
+						<li>
+							<a href="frmbranch.aspx">Branchs</a>
+						</li>
+						<li>
+							<a href="frmstream.aspx">Streams</a>
+						</li>
+						<li>
+							<a href="frmsubjects.aspx">Subjects</a>
+						</li>
+						<li>
+							<a href="frmsyllabus.aspx">Syllabus</a>
+						</li>
+						<li>
+							<a href="frmsession.aspx">Sessions</a>
+						</li>
+                        <li>
+							<a href="frmsemester.aspx">Semesters</a>
+						</li>
+                        <li>
+                        <a href="frmattendence.aspx">Attendance</a>
+							
+						</li>
+                        <li>
+							<a href="frmsessional.aspx">Sessionals</a>
+						</li>
+                        <li>
+							<a href="frmsessionalmarks.aspx">Sessionals Marks</a>
+						</li>
+                        <li>
+							<a href="frmassignmentsupload.aspx">Assignments</a>
+						</li>
+                        
+                        <li>
+							<a href="frmassgmntmarks.aspx">Assignments Marks</a>
+						</li>
+
+                       
+                        <li>
+							<a href="frminternalmarks.aspx">Internal Marks</a>
+                            
+						</li>
+
+                        <li>
+                            <a href="frmexternalmarks.aspx">External Marks</a>
+							
+						</li>
+                                                
+						<li class="last">
+							<a href="frmstudentDMC.aspx">Detailed Mark Card</a>
+						</li>
+							</ul>--%>
+                            </ul>
+						</div>
+					</div>
+					<div class="box">
+						<h3>
+							News and events...</h3>
+						<ul class="linkedList">
+							<li class="first">
+								<a href="frmannouncement.aspx">Latest News</a>
+							</li>
+                            <li>
+								<a href="frmadmission.aspx">Admission Open</a>
+							</li>
+                            <li>
+								<a href="frmdatesheet.aspx">DateSheet </a>
+							</li>
+
+							<li class="last">
+						  <a href="frmplacement.aspx">Training and Placement</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="content">
+					<div class="box">
+						<h2>
+							Welcome to the OFFICIAL website of RIMT ,Mandi Gobindgarh</h2>
+						<img src="images/4921986442382972.jpg" alt="" class="left" />
+						<p>
+							RIMT-Institute of Engineering and Technology<b><span lang="EN-US">,Mandigobindgarh 
+                            </span></b><span class="apple-converted-space"><span lang="EN-US">&nbsp;</span></span>RIMT<span 
+                                lang="EN-US"> Campus, Mandigobindgarh seeks to be at the&nbsp; fore front of changing the face of professional education in the region.
+                                The courses offered in management and computers are specially designed to learn application part of the theory and include work-based activity wherever possible.
+                                Under the guidelines of Hon'ble Vice Chancellor&nbsp; and Registrar, our emphasis is on quality education through competent faculty and learning resources like internet, newspapers, study material, 
+                                etc.which give the students best that the&nbsp; world expects of them today. 
+                                Our mission is to achieve 100% placement of our students with top industries.The campus is vast and well planned.
+                                Punjabi university has prepared this campus with the latest and modern equipments in the computer lab, seminar hall, library, Class-rooms etc.
+                                I invite you to realize this institution through a visit to our campus and interaction with the faculty and students.</span></p>
+					</div>
+					<div class="box">
+						<h3>
+							&nbsp;</h3>
+						<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <table class="style1">
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </asp:ContentPlaceHolder>
+						
+					</div><br class="clear" />
+				</div><br class="clear" />
+			</div>
+		</div>
+		<%--<div id="copyright">
+			&copy; Your Sitename. Design by <a href="http://www.freecsstemplates.org/">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.
+		</div>--%>
+	    </form>
+	</body>
+</html>
+
